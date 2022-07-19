@@ -1,0 +1,28 @@
+{
+  "properties": [
+    {
+      "name": "database",
+      "type": "java.lang.String",
+      "description": "Description for database."
+    },
+    {
+      "name": "spring.datasource.login-timeout",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.login-timeout."
+    },
+    {
+      "name": "spring.datasource.login-timeout",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.login-timeout."
+    },
+    {
+      "name": "spring.datasource.dynamic.datasource.master.url",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.dynamic.datasource.master.url."
+    },
+    {
+      "name": "spring.datasource.dynamic.durid.initial-size",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.dynamic.durid.initial-size."
+    }
+  ] }

@@ -1,0 +1,65 @@
+server:
+  port: 8081
+spring:
+  datasource:
+   dynamic:
+      durid:
+        initial-size: 10
+        max-active: 30
+        min-idle: 5
+        max-wait: 60000
+      primary: master # 默认使用数据库
+      strict: false #严格匹配数据源,默认false. true未匹配到指定数据源时抛异常,false使用默认数据源
+      datasource:
+        master: ######################主数据库配置(写入)##############使用@DS("master")切换成主数据库
+          url: jdbc:mysql://47.93.50.249:3306/msproject?useUnicode=true&serverTimezone=Asia/Shanghai&allowMultiQueries=true&allowMultiQueries=true
+          username: admin
+          password: wangwang01
+          driver-class-name: com.mysql.jdbc.Driver
+          type: com.alibaba.druid.pool.DruidDataSource
+        slave: ######################从库(读取)##############使用@DS("slave")切换成从数据库
+          url: jdbc:mysql://47.94.84.104:3306/php?useUnicode=true&serverTimezone=Asia/Shanghai&allowMultiQueries=true&allowMultiQueries=true
+          username: root
+          password: Zc010831!
+          driver-class-name: com.mysql.jdbc.Driver
+          type: com.alibaba.druid.pool.DruidDataSource
+        slave2: ######################从库(读取)##############使用@DS("slave")切换成从数据库
+          url: jdbc:mysql://47.94.84.104:3306/php?useUnicode=true&serverTimezone=Asia/Shanghai&allowMultiQueries=true&allowMultiQueries=true
+          username: root
+          password: Zc010831!
+          driver-class-name: com.mysql.jdbc.Driver
+          type: com.alibaba.druid.pool.DruidDataSource
+
+  redis:
+    #数据库索引
+    database: 0
+    host: 47.93.50.249
+    port: 6379
+    password: aabbcc0101
+    jedis:
+      pool:
+        #最大连接数
+        max-active: 16
+        #最大阻塞等待时间(负数表示没限制)
+        max-wait: -1
+        #最大空闲
+        max-idle: 8
+        #最小空闲
+        min-idle: 0
+        #连接超时时间
+    timeout: 30000
+
+
+seata:
+  enabled: true
+  enable-auto-data-source-proxy: false
+  application-id: ${spring.application.name}
+  tx-service-group: my_tx_group
+  service:
+    vgroup-mapping:
+       my_tx_group: default
+    grouplist:
+      default: localhost
+
+logging:
+  config: src/main/resources/log4j2.xml
