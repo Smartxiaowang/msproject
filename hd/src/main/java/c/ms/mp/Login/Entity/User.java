@@ -5,6 +5,7 @@ import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.*;
+import org.springframework.context.annotation.Bean;
 
 import java.io.Serializable;
 
@@ -20,14 +21,17 @@ import java.io.Serializable;
 @NoArgsConstructor
 @Builder
 @EqualsAndHashCode
-@TableName("user")
+@TableName("tb_users")
 public class User implements Serializable {
-    @TableId(value = "id", type = IdType.AUTO)
-    private Integer id;
-    @TableField("name")
-    private String name;
+    @TableId(value = "user_id", type = IdType.AUTO)
+    private Integer userId;
+    @TableField("username")
+    private String userName;
 
-    public User(String name) {
-        this.name = name;
-    }
+    @TableField("password")
+    private String passWord;
+
+    @TableField("password_salt")
+    private String passWordSalt;
+
 }

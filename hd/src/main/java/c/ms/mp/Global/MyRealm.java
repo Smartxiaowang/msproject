@@ -5,6 +5,7 @@ import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
+import redis.clients.jedis.Jedis;
 
 import javax.annotation.Resource;
 import java.util.Set;
@@ -24,6 +25,8 @@ public class MyRealm extends AuthorizingRealm {
     @Resource
     private PermissionDao permissionDao;
 */
+
+
     @Override
     public String getName() {
         return "myRealm";

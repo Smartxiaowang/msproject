@@ -17,6 +17,7 @@ import java.util.Map;
  * @Date 19:43 2022/7/15
  * @Version 1.0
  **/
+//@Configuration
 public class ShiroConfig {
     //Shiro的方言
     @Bean
