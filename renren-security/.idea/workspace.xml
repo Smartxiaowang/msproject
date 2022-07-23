@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5c2d06f9-48a1-47e5-ad42-bdbf9686d318" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/Global/CMSException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/Global/DataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/Global/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/Global/MyInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/Global/MyMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/Global/MyRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/Global/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/Global/RedisCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/Global/ResultCodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/Global/SaltUntil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/Global/ThreadPoolHelp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/dao/BaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/redis/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/redis/RedisKeys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/redis/RedisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/utils/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/utils/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/utils/BaseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/utils/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/utils/ConvertUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/utils/ErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/utils/ExceptionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/utils/HttpContextUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/utils/IpUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/utils/JsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/utils/PageData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/utils/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/utils/SpringContextUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/utils/SqlFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/utils/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/utils/TreeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/utils/XssFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/utils/XssHttpServletRequestWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/utils/XssUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/job/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/job/utils/ValidatorUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/job/utils/group/AddGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/job/utils/group/DefaultGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/job/utils/group/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/job/utils/group/UpdateGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/AdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/AdminApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/aspect/DataFilterAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/aspect/DataFilterAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/aspect/LogOperationAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/aspect/LogOperationAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/exception/RenExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/utils/ExcelUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common/utils/ExcelUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/job/controller/ScheduleJobController.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/job/controller/ScheduleJobController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/job/controller/ScheduleJobLogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/job/controller/ScheduleJobLogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/job/dto/ScheduleJobDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/job/dto/ScheduleJobDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/job/entity/ScheduleJobEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/job/entity/ScheduleJobEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/job/service/ScheduleJobLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/job/service/ScheduleJobLogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/job/service/ScheduleJobService.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/job/service/ScheduleJobService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/job/service/impl/ScheduleJobLogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/job/service/impl/ScheduleJobLogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/job/service/impl/ScheduleJobServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/job/service/impl/ScheduleJobServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/job/utils/ScheduleJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/job/utils/ScheduleJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/job/utils/ScheduleUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/job/utils/ScheduleUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/log/controller/SysLogErrorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/log/controller/SysLogErrorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/log/controller/SysLogLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/log/controller/SysLogLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/log/controller/SysLogOperationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/log/controller/SysLogOperationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/log/entity/SysLogErrorEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/log/entity/SysLogErrorEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/log/entity/SysLogLoginEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/log/entity/SysLogLoginEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/log/entity/SysLogOperationEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/log/entity/SysLogOperationEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/log/service/SysLogErrorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/log/service/SysLogErrorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/log/service/SysLogLoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/log/service/SysLogLoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/log/service/SysLogOperationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/log/service/SysLogOperationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/log/service/impl/SysLogErrorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/log/service/impl/SysLogErrorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/log/service/impl/SysLogLoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/log/service/impl/SysLogLoginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/log/service/impl/SysLogOperationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/log/service/impl/SysLogOperationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/oss/cloud/AbstractCloudStorageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/oss/cloud/AliyunCloudStorageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/oss/cloud/CloudStorageConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/oss/cloud/OSSFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/oss/cloud/QcloudCloudStorageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/oss/cloud/QiniuCloudStorageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/oss/controller/SysOssController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/oss/dao/SysOssDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/oss/entity/SysOssEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/oss/service/SysOssService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/oss/service/impl/SysOssServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/security/config/FilterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/security/config/FilterConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/security/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/security/config/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/security/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/security/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/security/entity/SysUserTokenEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/security/entity/SysUserTokenEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/security/oauth2/Oauth2Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/security/oauth2/Oauth2Filter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/security/oauth2/Oauth2Realm.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/security/oauth2/Oauth2Realm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/security/oauth2/TokenGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/security/oauth2/TokenGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/security/service/SysUserTokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/security/service/SysUserTokenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/security/service/impl/CaptchaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/security/service/impl/CaptchaServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/security/service/impl/SysUserTokenServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/security/service/impl/SysUserTokenServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/controller/SysDeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/controller/SysDeptController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/controller/SysDictDataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/controller/SysDictDataController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/controller/SysDictTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/controller/SysDictTypeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/controller/SysMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/controller/SysMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/controller/SysParamsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/controller/SysParamsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/controller/SysRoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/controller/SysRoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/controller/SysUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/dto/SysDeptDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/dto/SysDeptDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/dto/SysDictDataDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/dto/SysDictDataDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/dto/SysDictTypeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/dto/SysDictTypeDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/dto/SysMenuDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/dto/SysMenuDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/dto/SysParamsDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/dto/SysParamsDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/dto/SysRoleDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/dto/SysRoleDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/dto/SysUserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/dto/SysUserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/entity/SysDeptEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/entity/SysDeptEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/entity/SysDictDataEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/entity/SysDictDataEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/entity/SysDictTypeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/entity/SysDictTypeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/entity/SysMenuEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/entity/SysMenuEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/entity/SysParamsEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/entity/SysParamsEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/entity/SysRoleDataScopeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/entity/SysRoleDataScopeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/entity/SysRoleEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/entity/SysRoleEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/entity/SysRoleMenuEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/entity/SysRoleMenuEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/entity/SysRoleUserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/entity/SysRoleUserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/entity/SysUserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/entity/SysUserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/SysDeptService.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/SysDeptService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/SysDictDataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/SysDictDataService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/SysDictTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/SysDictTypeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/SysMenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/SysMenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/SysParamsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/SysParamsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/SysRoleDataScopeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/SysRoleDataScopeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/SysRoleMenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/SysRoleMenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/SysRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/SysRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/SysRoleUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/SysRoleUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/SysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/SysUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/impl/SysDeptServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/impl/SysDeptServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/impl/SysDictDataServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/impl/SysDictDataServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/impl/SysDictTypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/impl/SysDictTypeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/impl/SysMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/impl/SysMenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/impl/SysParamsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/impl/SysParamsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/impl/SysRoleDataScopeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/impl/SysRoleDataScopeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/impl/SysRoleMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/impl/SysRoleMenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/impl/SysRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/impl/SysRoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/impl/SysRoleUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/impl/SysRoleUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/modules/sys/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-admin/src/test/java/io/renren/service/DynamicDataSourceTestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-admin/src/test/java/io/renren/service/DynamicDataSourceTestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-api/src/main/java/io/renren/ApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-api/src/main/java/io/renren/ApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-api/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-api/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-api/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-api/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2CFoTbsV4wmkKmCkjCJRCfrfC0M" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/renren-admin/src/main/java/io/renren/common" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15835777" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.renren.common.utils" />
+      <recent name="io.renren.modules.job.utils" />
+      <recent name="io.renren.common.page" />
+      <recent name="io.renren.common.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\面试\rproject\renren-security\renren-admin\src\main\java\io\renren\common" />
+      <recent name="G:\面试\rproject\renren-security\renren-admin\src\main\java\io\renren\common\utils" />
+      <recent name="G:\面试\rproject\renren-security\renren-admin\src\main\java\io\renren\modules\job\utils" />
+      <recent name="G:\面试\rproject\renren-security\renren-admin\src\main\resources" />
+      <recent name="G:\面试\rproject\renren-security\renren-api\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AdminApplication (1)">
+    <configuration name="AdminApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="renren-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.AdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="renren-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.ms.AdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="renren-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.AdminApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="renren-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.ApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="renren-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.ms.ApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="renren-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.ApiApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GeneratorApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="renren-generator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.GeneratorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GeneratorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="renren-generator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.ms.GeneratorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GeneratorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="renren-generator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.GeneratorApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.AdminApplication" />
+      <item itemvalue="Spring Boot.ApiApplication" />
+      <item itemvalue="Spring Boot.GeneratorApplication" />
+      <item itemvalue="Spring Boot.AdminApplication (1)" />
+      <item itemvalue="Spring Boot.ApiApplication (1)" />
+      <item itemvalue="Spring Boot.GeneratorApplication (1)" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5c2d06f9-48a1-47e5-ad42-bdbf9686d318" name="Default Changelist" comment="" />
+      <created>1658407702669</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658407702669</updated>
+      <workItem from="1658407708484" duration="5686000" />
+      <workItem from="1658413476028" duration="76000" />
+      <workItem from="1658413591335" duration="1000000" />
+      <workItem from="1658541726910" duration="8211000" />
+      <workItem from="1658564746159" duration="2173000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1658409977883">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1658409977883" />
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1658544334079">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1658544334079" />
+    <state x="570" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1658409469372">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="570" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1658409469372" />
+    <state x="544" y="279" width="448" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1658409713898">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="544" y="279" width="448" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1658409713898" />
+    <state x="128" y="64" key="DiffContextDialog" timestamp="1658577246682">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="128" y="64" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1658577246682" />
+    <state x="549" y="110" key="FileChooserDialogImpl" timestamp="1658410143320">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="110" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1658410143320" />
+    <state width="1493" height="229" key="GridCell.Tab.0.bottom" timestamp="1658577305156">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="229" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1658577305156" />
+    <state width="1493" height="229" key="GridCell.Tab.0.center" timestamp="1658577305155">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="229" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1658577305155" />
+    <state width="1493" height="229" key="GridCell.Tab.0.left" timestamp="1658577305154">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="229" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1658577305154" />
+    <state width="1493" height="229" key="GridCell.Tab.0.right" timestamp="1658577305156">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="229" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1658577305156" />
+    <state width="1493" height="229" key="GridCell.Tab.1.bottom" timestamp="1658577305157">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="229" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1658577305157" />
+    <state width="1493" height="229" key="GridCell.Tab.1.center" timestamp="1658577305156">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="229" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1658577305156" />
+    <state width="1493" height="229" key="GridCell.Tab.1.left" timestamp="1658577305156">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="229" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1658577305156" />
+    <state width="1493" height="229" key="GridCell.Tab.1.right" timestamp="1658577305156">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="229" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1658577305156" />
+    <state width="1493" height="281" key="GridCell.Tab.2.bottom" timestamp="1658564658405">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="281" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1658564658405" />
+    <state width="1493" height="281" key="GridCell.Tab.2.center" timestamp="1658564658404">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="281" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1658564658404" />
+    <state width="1493" height="281" key="GridCell.Tab.2.left" timestamp="1658564658404">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="281" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1658564658404" />
+    <state width="1493" height="281" key="GridCell.Tab.2.right" timestamp="1658564658404">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="281" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1658564658404" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1658409998307">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1658409998307" />
+    <state x="408" y="115" key="NewModule_or_Project.wizard" timestamp="1658410148478">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="408" y="115" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1658410148478" />
+    <state x="477" y="113" key="RollbackChangesDialog" timestamp="1658577247770">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="477" y="113" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1658577247770" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1658564305942">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1658564305942" />
+    <state x="178" y="72" key="new project wizard" timestamp="1658410129486">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="72" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1658410129486" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1658542204065">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1658542204065" />
+  </component>
+</project>
