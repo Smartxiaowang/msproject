@@ -1,6 +1,7 @@
+<!--
 <template>
-  <el-card shadow="never" class="aui-card--fill">
-    <div class="mod-home">
+  <el-card shadow="never" class="aui-card&#45;&#45;fill">
+    &lt;!&ndash;<div class="mod-home">
       <h3>项目介绍</h3>
       <ul>
         <li>前端是基于vue、element-ui构建开发。</li>
@@ -14,10 +15,30 @@
         <li>个人学习笔记</li>
         <li>毕业设计</li>
       </ul>
-      <h3>我的微信</h3>
+    &lt;!&ndash;  <h3>我的微信</h3>
       <ul>
         <li><img src="public/vx.png" alt=""/></li>
-      </ul>
+      </ul>&ndash;&gt;
+    </div>&ndash;&gt;
+    <div class="mod-home">
+     <span>
+           =============================================================<br>
+      _                    _          _ _ _<br>
+      | |                  (_)        (_) | |<br>
+      ____   ___    | | _  _   _  ____    _    _ _ _ _| | |<br>
+      |  _ \ / _ \   | || \| | | |/ _  |  | |  | | | | | | |<br>
+      | | | | |_| |  | |_) ) |_| ( ( | |  | |  | | | | | | |<br>
+      |_| |_|\___/   |____/ \____|\_|| |  |_|   \____|_|_|_|<br>
+      -       (_____|<br>
+      | |<br>
+      ___  ___    | | _   ____ ____  ____  _   _<br>
+      /___)/ _ \   | || \ / _  |  _ \|  _ \| | | |<br>
+      |___ | |_| |  | | | ( ( | | | | | | | | |_| |<br>
+      (___/ \___/   |_| |_|\_||_| ||_/| ||_/ \__  |<br>
+      |_|   |_|   (____/                     -&#45;&#45;&#45;&#45;SmartXiaoWang<br>
+      ==============================================================<br>
+     </span>
+
     </div>
   </el-card>
 </template>
@@ -26,4 +47,299 @@
 .mod-home {
   line-height: 1.5;
 }
+</style>
+-->
+<template>
+  <div class="dial">
+    <div class="times">抽奖次数{{LuckyClick}}</div>
+    <!-- 转盘包裹 -->
+    <div class="rotate">
+      <!-- 转盘图片 -->
+      <img class="dish" src="https://cache.yisu.com/upload/information/20220308/112/309407.jpg"/>
+      <!-- 指针图片 -->
+      <el-button @click="start">点我抽奖</el-button>
+    </div>
+
+  </div>
+</template>
+
+<script>
+  var light_timer; //灯光定时器
+  export default {
+    name: "dial",
+    data() {
+      return {
+        LuckyClick: 10,
+        circleList: [], //原点设置
+        colorCircleFirst: "#FE4D32", //圆点颜色
+        colorCircleSecond: "#fff", //圆点颜色
+
+        cat: 45, //总共8个扇形区域，每个区域约45度
+        isAllowClick: true, //是否能够点击
+        rotate_deg: 0, //指针旋转的角度
+        rotate_transition: "transform 3s ease-in-out" //初始化选中的过度属性控制
+      };
+    },
+
+    components: {
+      // Calendar: Calendar
+    },
+    created() {
+      this.showcircleList();
+    },
+
+    watch: {},
+
+    mounted() {},
+
+    methods: {
+      //绘制圆点设置
+      showcircleList() {
+        let circleList = [];
+        for (var i = 0; i < 16; i++) {
+          circleList.push(i);
+        }
+        this.circleList = circleList;
+        this.light();
+      },
+
+      //闪动效果
+      light: function() {
+        var that = this;
+        clearInterval(light_timer);
+        light_timer = setInterval(function() {
+          if (that.colorCircleFirst == "#FE4D32") {
+            that.colorCircleFirst = "#fff";
+            that.colorCircleSecond = "#FE4D32";
+          } else {
+            that.colorCircleFirst = "#FE4D32";
+            that.colorCircleSecond = "#fff";
+          }
+        }, 30); //设置圆点闪烁的效果
+      },
+
+      start() {
+        if (this.LuckyClick == 0) {
+          alert("机会已经用完了");
+          return;
+        }
+        this.rotating();
+      },
+
+      rotating() {
+        if (!this.isAllowClick) return;
+        this.isAllowClick = false;
+        this.rotate_transition = "transform 3s ease-in-out";
+        this.LuckyClick--;
+        var rand_circle = 2; //默认多旋转5圈
+        //   var winningIndex = Math.floor(Math.random() * 8); //获奖的下标   0-7   没有概率每个平均
+        var winningIndex = this.set(); //设置了概率的
+        this.$message.success("正在抽奖中")
+        console.log(winningIndex);
+        var randomDeg = 360 - winningIndex * 45; //当前下标对应的角度    45是总共8个扇形区域，每个区域约45度
+
+        var deg = rand_circle * 360 + randomDeg; //将要旋转的度数  由于是顺时针的转动方向需要用360度来减
+        this.rotate_deg = "rotate(" + deg + "deg)";
+
+        var that = this;
+        setTimeout(function() {
+          that.isAllowClick = true;
+          that.rotate_deg = "rotate(" + 0 + "deg)"; //定时器关闭的时候重置角度
+          that.rotate_transition = "";
+
+          if (winningIndex == 0) {
+            alert("恭喜您，IphoneX");
+          } else if (winningIndex == 1) {
+            alert("恭喜您，获得10元现金");
+          } else if (winningIndex == 2) {
+            alert("很遗憾，重在参与");
+          } else if (winningIndex == 3) {
+            alert("恭喜您，获得30元现金");
+          } else if (winningIndex == 4) {
+            alert("恭喜您，获得20元现金");
+          } else if (winningIndex == 5) {
+            alert("恭喜您，获得50元现金");
+          } else if (winningIndex == 6) {
+            alert("恭喜您，获得5元现金");
+          } else if (winningIndex == 7) {
+            alert("恭喜您，获得100元现金");
+          }
+        }, 1000);
+      },
+
+      //设置概率
+      set() {
+        var winIndex;
+        //方法1
+           if (Math.floor(Math.random() * 100) < 30) {
+             console.log("30%的概率,重在参与");
+             winIndex = 2;
+           } else if (Math.floor(Math.random() * 100) < 55) {
+             console.log("25%的概率,5元");
+             winIndex = 6;
+           } else if (Math.floor(Math.random() * 100) < 75) {
+             console.log("20%的概率,10元");
+             winIndex = 1;
+           } else if (Math.floor(Math.random() * 100) < 85) {
+             console.log("10%的概率,20元");
+             winIndex = 4;
+           } else if (Math.floor(Math.random() * 100) < 92) {
+             console.log("7%的概率,30元");
+             winIndex = 3;
+           } else if (Math.floor(Math.random() * 100) < 97) {
+             console.log("5%的概率,50元");
+             winIndex = 5;
+           } else if (Math.floor(Math.random() * 100) < 99) {
+             console.log("2%的概率,100元");
+             winIndex = 7;
+           } else if (Math.floor(Math.random() * 100) == 99) {
+             console.log("1%的概率,IphoneX");
+             winIndex = 0;
+           }
+
+
+        //方法2
+      /*  var __rand__ = Math.random();
+        if (__rand__ < 0.3) winIndex = 2;
+        else if (__rand__ < 0.55) winIndex = 6;
+        else if (__rand__ < 0.75) winIndex = 1;
+        else if (__rand__ < 0.85) winIndex = 4;
+        else if (__rand__ < 0.92) winIndex = 3;
+        else if (__rand__ < 0.97) winIndex = 5;
+        else if (__rand__ < 0.99) winIndex = 7;
+        else if (__rand__ = 0.99) winIndex = 0;
+*/
+        return winIndex;
+      }
+    },
+
+    computed: {}
+  };
+</script>
+
+
+<style  scoped lang="scss">
+  .times {
+    text-align: center;
+    line-height: 100px;
+    background: #fff;
+  }
+  .rotate {
+    width: 1px;
+    height: 1px;
+    background: #ffbe04;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .rotate .dish {
+    width: 300px;
+    height:  300px;
+  }
+
+  .pointer {
+    width: 140px;
+    height: 200px;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* 圆点 */
+  .rotate .circle {
+    position: absolute;
+    display: block;
+    border-radius: 50%;
+    height: 0.16rem;
+    width: 0.16rem;
+    background: black;
+  }
+
+  .rotate .circle_0 {
+    top: 0.08rem;
+    left: 2.92rem;
+  }
+
+  .rotate .circle_1 {
+    top: 0.28rem;
+    left: 4.05rem;
+  }
+
+  .rotate .circle_2 {
+    top: 0.86rem;
+    left: 4.95rem;
+  }
+
+  .rotate .circle_3 {
+    top: 1.85rem;
+    left: 5.65rem;
+  }
+
+  .rotate .circle_4 {
+    top: 2.85rem;
+    right: 0.1rem;
+  }
+
+  .rotate .circle_5 {
+    bottom: 1.89rem;
+    right: 0.29rem;
+  }
+
+  .rotate .circle_6 {
+    bottom: 0.96rem;
+    right: 0.88rem;
+  }
+
+  .rotate .circle_7 {
+    bottom: 0.34rem;
+    right: 1.76rem;
+  }
+
+  .rotate .circle_8 {
+    bottom: 0.06rem;
+    right: 3.06rem;
+  }
+
+  .rotate .circle_9 {
+    bottom: 0.28rem;
+    left: 1.9rem;
+  }
+
+  .rotate .circle_10 {
+    bottom: 0.96rem;
+    left: 0.88rem;
+  }
+
+  .rotate .circle_11 {
+    bottom: 1.82rem;
+    left: 0.28rem;
+  }
+
+  .rotate .circle_12 {
+    top: 2.9rem;
+    left: 0.1rem;
+  }
+
+  .rotate .circle_13 {
+    top: 1.9rem;
+    left: 0.28rem;
+  }
+
+  .rotate .circle_14 {
+    top: 1rem;
+    left: 0.86rem;
+  }
+
+  .rotate .circle_15 {
+    top: 0.32rem;
+    left: 1.76rem;
+  }
 </style>
