@@ -17,8 +17,11 @@ import java.util.Set;
  * @Version 1.0
  **/
 public final class RedisCache {
+    private JedisPool jedisPool;
+    static {
 
-   /*
+    }
+    /*
     除了该工具类提供的方法外，还可以在外面调用getJedis()方法，获取到jedis实例后，调用它原生的api来操作
      */
 
@@ -31,6 +34,7 @@ public final class RedisCache {
      * @return 返回jedis对象
      */
     public static Jedis getJedis(int... index) {
+
         JedisPoolConfig config = new JedisPoolConfig();
         config.setMaxIdle(8);
         config.setMaxTotal(18);

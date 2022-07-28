@@ -20,7 +20,6 @@ package bs.modules.security.password;
 /**
  * 密码工具类
  *
- * @author Mark sunlightcs@gmail.com
  * @since 1.0.0
  */
 public class PasswordUtils {
@@ -46,13 +45,5 @@ public class PasswordUtils {
         return passwordEncoder.matches(str, password);
     }
 
-
-    public static void main(String[] args) {
-        String str = "admin";
-        String password = encode(str);
-
-        System.out.println(password);
-        System.out.println(matches(str, password));
-    }
 
 }

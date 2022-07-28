@@ -11,653 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0054cf02-c322-430e-a82f-8570da3c4b6e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__cn_afterturn_easypoi_annotation_4_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__cn_afterturn_easypoi_base_4_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__cn_afterturn_easypoi_web_4_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__cn_hutool_hutool_all_5_7_22.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_alibaba_druid_1_2_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_alibaba_druid_spring_boot_starter_1_2_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_core_3_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_aliyun_oss_aliyun_sdk_oss_2_8_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_4_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_4_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_autoconfigure_1_4_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_github_pagehelper_pagehelper_spring_boot_starter_1_4_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_06.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_github_whvcse_easy_captcha_1_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_google_code_gson_gson_2_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_7_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_microsoft_sqlserver_sqljdbc4_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_oracle_ojdbc6_11_2_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_qcloud_cos_api_5_4_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_qiniu_qiniu_java_sdk_7_2_27.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_4_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_squareup_okio_okio_2_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__com_zaxxer_HikariCP_4_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__commons_configuration_commons_configuration_1_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__commons_io_commons_io_2_11_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__io_lettuce_lettuce_core_6_1_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__io_netty_netty_buffer_4_1_78_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__io_netty_netty_codec_4_1_78_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__io_netty_netty_common_4_1_78_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__io_netty_netty_handler_4_1_78_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__io_netty_netty_resolver_4_1_78_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__io_netty_netty_transport_4_1_78_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_78_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__io_projectreactor_reactor_core_3_4_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__io_renren_renren_dynamic_datasource_5_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__io_springfox_springfox_core_2_9_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__io_springfox_springfox_schema_2_9_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__io_springfox_springfox_spi_2_9_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__io_springfox_springfox_spring_web_2_9_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__io_springfox_springfox_swagger2_2_9_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__io_springfox_springfox_swagger_common_2_9_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_2_9_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__joda_time_joda_time_2_10_14.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__junit_junit_4_13_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_29.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__net_minidev_json_smart_2_4_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__ognl_ognl_3_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_apache_commons_commons_compress_1_18.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_12_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_11_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_apache_poi_poi_4_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_apache_poi_poi_ooxml_4_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_4_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_apache_shiro_shiro_cache_1_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_apache_shiro_shiro_config_core_1_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_apache_shiro_shiro_config_ogdl_1_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_apache_shiro_shiro_core_1_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_cipher_1_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_core_1_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_apache_shiro_shiro_crypto_hash_1_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_apache_shiro_shiro_event_1_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_apache_shiro_shiro_lang_1_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_apache_shiro_shiro_spring_1_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_apache_shiro_shiro_web_1_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_64.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_64.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_64.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_assertj_assertj_core_3_22_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_59.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_2_3_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_3_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_jdom_jdom_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_6_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_6_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_6_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_6_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_json_json_20211205.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_jsoup_jsoup_1_11_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_mapstruct_mapstruct_1_2_0_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_mockito_mockito_core_4_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_mybatis_mybatis_3_5_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_mybatis_mybatis_3_5_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_owasp_encoder_encoder_1_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_postgresql_postgresql_42_3_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_quartz_scheduler_quartz_2_3_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_1_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_1_2_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_springframework_spring_aop_5_3_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_springframework_spring_beans_5_3_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_springframework_spring_context_5_3_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_springframework_spring_core_5_3_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_springframework_spring_expression_5_3_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_springframework_spring_oxm_5_3_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_springframework_spring_test_5_3_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_springframework_spring_tx_5_3_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_springframework_spring_web_5_3_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_21.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__org_yaml_snakeyaml_1_30.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/libraries/Maven__redis_clients_jedis_4_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/db/mysql.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/db/oracle.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/db/postgresql.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/db/sqlserver.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/renren-admin.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/AdminApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/Global/CMSException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/Global/DataSourceConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/Global/GlobalExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/Global/MyInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/Global/MyMvcConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/Global/MyRealm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/Global/R.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/Global/RedisCache.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/Global/ResultCodeEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/Global/SaltUntil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/Global/ThreadPoolHelp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/annotation/DataFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/annotation/LogOperation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/aspect/DataFilterAspect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/aspect/LogOperationAspect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/config/MybatisPlusConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/config/SwaggerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/dao/BaseDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/handler/FieldMetaObjectHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/interceptor/DataFilterInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/interceptor/DataScope.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/redis/RedisConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/redis/RedisKeys.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/redis/RedisUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/utils/BaseEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/utils/BaseService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/utils/BaseServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/utils/Constant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/utils/ConvertUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/utils/ErrorCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/utils/ExcelUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/utils/ExceptionUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/utils/HttpContextUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/utils/IpUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/utils/JsonUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/utils/PageData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/utils/Result.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/utils/SpringContextUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/utils/SqlFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/utils/TreeNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/utils/TreeUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/utils/XssFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/utils/XssHttpServletRequestWrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/utils/XssUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/validator/group/AliyunGroup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/validator/group/QcloudGroup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/common/validator/group/QiniuGroup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/job/config/ScheduleConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/job/controller/ScheduleJobController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/job/controller/ScheduleJobLogController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/job/dao/ScheduleJobDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/job/dao/ScheduleJobLogDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/job/dto/ScheduleJobDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/job/dto/ScheduleJobLogDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/job/entity/ScheduleJobEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/job/entity/ScheduleJobLogEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/job/init/JobCommandLineRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/job/service/ScheduleJobLogService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/job/service/ScheduleJobService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/job/service/impl/ScheduleJobLogServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/job/service/impl/ScheduleJobServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/job/task/ITask.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/job/task/TestTask.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/job/utils/DateUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/job/utils/ScheduleJob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/job/utils/ScheduleUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/job/utils/ValidatorUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/job/utils/group/AddGroup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/job/utils/group/DefaultGroup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/job/utils/group/Group.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/job/utils/group/UpdateGroup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/log/controller/SysLogErrorController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/log/controller/SysLogLoginController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/log/controller/SysLogOperationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/log/dao/SysLogErrorDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/log/dao/SysLogLoginDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/log/dao/SysLogOperationDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/log/dto/SysLogErrorDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/log/dto/SysLogLoginDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/log/dto/SysLogOperationDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/log/entity/SysLogErrorEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/log/entity/SysLogLoginEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/log/entity/SysLogOperationEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/log/enums/LoginOperationEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/log/enums/LoginStatusEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/log/enums/OperationStatusEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/log/excel/SysLogErrorExcel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/log/excel/SysLogLoginExcel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/log/excel/SysLogOperationExcel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/log/service/SysLogErrorService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/log/service/SysLogLoginService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/log/service/SysLogOperationService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/log/service/impl/SysLogErrorServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/log/service/impl/SysLogLoginServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/log/service/impl/SysLogOperationServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/security/config/FilterConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/security/config/ShiroConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/security/config/WebMvcConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/security/controller/LoginController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/security/dao/SysUserTokenDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/security/dto/LoginDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/security/entity/SysUserTokenEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/security/oauth2/Oauth2Filter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/security/oauth2/Oauth2Realm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/security/oauth2/Oauth2Token.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/security/oauth2/TokenGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/security/password/BCrypt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/security/password/BCryptPasswordEncoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/security/password/PasswordEncoder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/security/password/PasswordUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/security/service/CaptchaService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/security/service/ShiroService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/security/service/SysUserTokenService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/security/service/impl/CaptchaServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/security/service/impl/ShiroServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/security/service/impl/SysUserTokenServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/security/user/SecurityUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/security/user/UserDetail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/controller/IndexController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/controller/SysDeptController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/controller/SysDictDataController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/controller/SysDictTypeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/controller/SysMenuController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/controller/SysParamsController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/controller/SysRoleController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/controller/SysUserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/dao/SysDeptDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/dao/SysDictDataDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/dao/SysDictTypeDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/dao/SysMenuDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/dao/SysParamsDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/dao/SysRoleDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/dao/SysRoleDataScopeDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/dao/SysRoleMenuDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/dao/SysRoleUserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/dao/SysUserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/dto/PasswordDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/dto/SysDeptDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/dto/SysDictDataDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/dto/SysDictTypeDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/dto/SysMenuDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/dto/SysParamsDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/dto/SysRoleDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/dto/SysUserDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/dto/SystemDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/entity/DictData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/entity/DictType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/entity/SysDeptEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/entity/SysDictDataEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/entity/SysDictTypeEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/entity/SysMenuEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/entity/SysParamsEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/entity/SysRoleDataScopeEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/entity/SysRoleEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/entity/SysRoleMenuEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/entity/SysRoleUserEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/entity/SysUserEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/enums/MenuTypeEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/enums/SuperAdminEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/enums/UserStatusEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/excel/SysParamsExcel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/excel/SysUserExcel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/redis/SysParamsRedis.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/service/SysDeptService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/service/SysDictDataService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/service/SysDictTypeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/service/SysMenuService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/service/SysParamsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/service/SysRoleDataScopeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/service/SysRoleMenuService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/service/SysRoleService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/service/SysRoleUserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/service/SysUserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/service/impl/SysDeptServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/service/impl/SysDictDataServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/service/impl/SysDictTypeServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/service/impl/SysMenuServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/service/impl/SysParamsServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/service/impl/SysRoleDataScopeServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/service/impl/SysRoleMenuServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/service/impl/SysRoleServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/service/impl/SysRoleUserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/java/io/renren/modules/sys/service/impl/SysUserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/resources/application-dev.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/resources/application-prod.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/resources/application-test.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/resources/banner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/resources/logback-spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/resources/mapper/job/ScheduleJobDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/resources/mapper/job/ScheduleJobLogDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/resources/mapper/log/SysLogErrorDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/resources/mapper/log/SysLogLoginDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/resources/mapper/log/SysLogOperationDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/resources/mapper/oss/SysOssDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/resources/mapper/sys/SysDeptDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/resources/mapper/sys/SysDictDataDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/resources/mapper/sys/SysDictTypeDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/resources/mapper/sys/SysMenuDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/resources/mapper/sys/SysParamsDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/resources/mapper/sys/SysRoleDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/resources/mapper/sys/SysRoleDataScopeDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/resources/mapper/sys/SysRoleMenuDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/resources/mapper/sys/SysRoleUserDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/resources/mapper/sys/SysUserDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/resources/mapper/sys/SysUserTokenDao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/resources/public/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/resources/public/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/resources/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/main/resources/public/wechat.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/test/java/io/renren/DynamicDataSourceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/test/java/io/renren/RedisTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-admin/src/test/java/io/renren/service/DynamicDataSourceTestService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/renren-common.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/aspect/RedisAspect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/constant/Constant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/convert/DateConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/dao/BaseDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/entity/BaseEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/exception/ErrorCode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/exception/ExceptionUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/exception/RenException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/page/PageData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/redis/RedisConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/redis/RedisKeys.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/redis/RedisUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/service/BaseService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/service/CrudService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/service/impl/BaseServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/service/impl/CrudServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/utils/ConvertUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/utils/DateUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/utils/HttpContextUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/utils/IpUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/utils/JsonUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/utils/MessageUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/utils/Result.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/utils/SpringContextUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/utils/TreeNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/utils/TreeUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/validator/AssertUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/validator/ValidatorUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/validator/group/AddGroup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/validator/group/DefaultGroup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/validator/group/Group.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/validator/group/UpdateGroup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/xss/SqlFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/xss/XssFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/xss/XssHttpServletRequestWrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/java/io/renren/common/xss/XssUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/resources/i18n/messages.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-common/src/main/resources/i18n/validation.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-security/renren-security.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/.env.development" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/.env.production" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/.env.production.sit" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/.env.production.uat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/.idea/renren-ui.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/babel.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/public/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/public/wechat.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/assets/img/avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/assets/img/login_bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/assets/scss/aui.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/assets/scss/common.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/assets/scss/modules/home.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/assets/scss/normalize.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/assets/scss/pages/404.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/assets/scss/pages/login.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/assets/scss/variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/components/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/components/ren-dept-tree/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/components/ren-dept-tree/src/ren-dept-tree.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/components/ren-radio-group/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/components/ren-radio-group/src/ren-radio-group.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/components/ren-region-tree/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/components/ren-region-tree/src/ren-region-tree.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/components/ren-select/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/components/ren-select/src/ren-select.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme-variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/alert.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/aside.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/autocomplete.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/avatar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/backtop.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/badge.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/breadcrumb-item.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/breadcrumb.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/button-group.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/button.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/calendar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/card.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/carousel-item.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/carousel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/cascader-panel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/cascader.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/checkbox-button.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/checkbox-group.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/checkbox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/col.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/collapse-item.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/collapse.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/color-picker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/container.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/date-picker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/descriptions-item.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/descriptions.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/dialog.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/display.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/divider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/drawer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/dropdown-item.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/dropdown-menu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/dropdown.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/empty.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/fonts/element-icons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/fonts/element-icons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/footer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/form-item.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/form.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/icon.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/image.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/infinite-scroll.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/infiniteScroll.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/input-number.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/input.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/link.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/loading.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/menu-item-group.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/menu-item.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/menu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/message-box.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/message.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/notification.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/option-group.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/option.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/page-header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/pagination.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/popconfirm.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/popover.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/popper.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/progress.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/radio-button.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/radio-group.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/radio.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/rate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/result.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/row.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/scrollbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/select-dropdown.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/select.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/skeleton-item.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/skeleton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/slider.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/spinner.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/step.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/steps.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/submenu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/switch.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/tab-pane.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/table-column.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/table.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/tabs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/tag.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/theme-variables.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/time-picker.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/time-select.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/timeline-item.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/timeline.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/tooltip.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/transfer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/tree.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/element-ui/theme/upload.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/i18n/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/i18n/zh-CN.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/icons/iconfont.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/icons/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/icons/svg/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/icons/svg/gitee.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/mixins/view-module.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/router/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/store/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/store/modules/user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/utils/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/utils/request.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/utils/validate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/views/main-content.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/views/main-navbar-update-password.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/views/main-navbar.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/views/main-sidebar-sub-menu.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/views/main-sidebar.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/views/main.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/views/modules/home.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/views/modules/job/schedule-add-or-update.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/views/modules/job/schedule-log.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/views/modules/job/schedule.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/views/modules/oss/oss-config.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/views/modules/oss/oss-upload.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/views/modules/oss/oss.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/views/modules/sys/dept-add-or-update.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/views/modules/sys/dept.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/views/modules/sys/dict-data-add-or-update.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/views/modules/sys/dict-data.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/views/modules/sys/dict-type-add-or-update.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/views/modules/sys/dict-type.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/views/modules/sys/log-error.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/views/modules/sys/log-login.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/views/modules/sys/log-operation.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/views/modules/sys/menu-add-or-update.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/views/modules/sys/menu.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/views/modules/sys/params-add-or-update.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/views/modules/sys/params.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/views/modules/sys/role-add-or-update.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/views/modules/sys/role.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/views/modules/sys/user-add-or-update.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/views/modules/sys/user.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/views/pages/404.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/src/views/pages/login.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../renren-ui/vue.config.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ui/.idea/ui.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bs-wx/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/Global/RedisCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/Global/RedisCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/security/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/security/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/security/password/PasswordUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/security/password/PasswordUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/enums/UserStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/enums/UserStatusEnum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -683,9 +43,10 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ui" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15835777" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -714,6 +75,7 @@
       <updated>1658906331467</updated>
       <workItem from="1658906335799" duration="436000" />
       <workItem from="1658906782252" duration="135000" />
+      <workItem from="1658908317285" duration="10707000" />
     </task>
     <servers />
   </component>
@@ -732,43 +94,54 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="110" key="FileChooserDialogImpl" timestamp="1658906907150">
+    <state x="249" y="0" key="#Project_Structure" timestamp="1658976932002">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="110" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1658906907150" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1658906775408">
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1658976932002" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1658977487635">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1658906775408" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1658906775408">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1658977487635" />
+    <state x="549" y="110" key="FileChooserDialogImpl" timestamp="1658908600315">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1658906775408" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1658906775408">
+    <state x="549" y="110" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1658908600315" />
+    <state width="1493" height="246" key="GridCell.Tab.0.bottom" timestamp="1658992566298">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1658906775408" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1658906775408">
+    <state width="1493" height="246" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1658992566298" />
+    <state width="1493" height="246" key="GridCell.Tab.0.center" timestamp="1658992566298">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1658906775408" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1658906775409">
+    <state width="1493" height="246" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1658992566298" />
+    <state width="1493" height="246" key="GridCell.Tab.0.left" timestamp="1658992566298">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1658906775409" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1658906775409">
+    <state width="1493" height="246" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1658992566298" />
+    <state width="1493" height="246" key="GridCell.Tab.0.right" timestamp="1658992566298">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1658906775409" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1658906775408">
+    <state width="1493" height="246" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1658992566298" />
+    <state width="1493" height="246" key="GridCell.Tab.1.bottom" timestamp="1658992566298">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1658906775408" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1658906775409">
+    <state width="1493" height="246" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1658992566298" />
+    <state width="1493" height="246" key="GridCell.Tab.1.center" timestamp="1658992566298">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1658906775409" />
+    <state width="1493" height="246" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1658992566298" />
+    <state width="1493" height="246" key="GridCell.Tab.1.left" timestamp="1658992566298">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="246" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1658992566298" />
+    <state width="1493" height="246" key="GridCell.Tab.1.right" timestamp="1658992566298">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="246" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1658992566298" />
     <state width="1493" height="261" key="GridCell.Tab.2.bottom" timestamp="1658906775409">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -789,6 +162,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="408" y="115" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1658906908837" />
+    <state x="577" y="113" key="RollbackChangesDialog" timestamp="1658992558935">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="577" y="113" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1658992558935" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1658906916620">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

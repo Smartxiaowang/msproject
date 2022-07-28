@@ -16,7 +16,8 @@ package bs.modules.sys.enums;
  */
 public enum UserStatusEnum {
     DISABLE(0),
-    ENABLED(1);
+    ENABLED(1),
+    LOCKTENMIN(2);
 
     private int value;
 

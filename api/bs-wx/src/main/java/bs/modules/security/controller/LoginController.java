@@ -10,8 +10,10 @@ package bs.modules.security.controller;
 
 import bs.common.Global.CMSException;
 import bs.common.Global.R;
+import bs.common.Global.RedisCache;
 import bs.common.utils.ErrorCode;
 import bs.common.utils.IpUtils;
+import bs.modules.job.utils.ValidatorUtils;
 import bs.modules.log.entity.SysLogLoginEntity;
 import bs.modules.log.enums.LoginOperationEnum;
 import bs.modules.log.enums.LoginStatusEnum;
@@ -73,7 +75,6 @@ public class LoginController {
     /*
      * @Description: TODO
      * @Author: Dear lin
-     * @Date: 2022/7/27 15:10
      * @Param: [request, login]
      * @Return: bs.common.Global.R
      */
@@ -81,18 +82,22 @@ public class LoginController {
     @ApiOperation(value = "登录")
     public R login(HttpServletRequest request, @RequestBody LoginDTO login) {
         //效验数据
-        //ValidatorUtils.validateEntity(login);
+        ValidatorUtils.validateEntity(login);
 
         //验证码是否正确
         boolean flag = captchaService.validate(login.getUuid(), login.getCaptcha());
         if (!flag) {
 			return R.error().code(ErrorCode.CAPTCHA_ERROR).message("验证码错误");
         }
+        //加一个账号登录冻结10分钟
+        String s = RedisCache.get(login.getUsername());
 
         //用户信息
         SysUserDTO userDTO = sysUserService.getByUsername(login.getUsername());
-        //加一个账号登录冻结10分钟
 
+        if (userDTO.getStatus() == UserStatusEnum.LOCKTENMIN.value()) {
+            //账号登录次数过多停用十分钟
+        }
         SysLogLoginEntity log = new SysLogLoginEntity();
         log.setOperation(LoginOperationEnum.LOGIN.value());
         log.setCreateDate(new Date());
@@ -105,7 +110,6 @@ public class LoginController {
             log.setStatus(LoginStatusEnum.FAIL.value());
             log.setCreatorName(login.getUsername());
             sysLogLoginService.save(log);
-
             throw new CMSException(ErrorCode.USER_PASSWORD_ERROR, "用户不存在");
         }
 
@@ -121,12 +125,10 @@ public class LoginController {
 
         //账号停用
         if (userDTO.getStatus() == UserStatusEnum.DISABLE.value()) {
-
             log.setStatus(LoginStatusEnum.LOCK.value());
             log.setCreator(userDTO.getId());
             log.setCreatorName(userDTO.getUsername());
             sysLogLoginService.save(log);
-
             throw new CMSException(ErrorCode.USER_IS_LOCK, "账号停用");
         }
 
