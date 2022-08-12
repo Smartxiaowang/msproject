@@ -13,13 +13,14 @@ import com.baomidou.mybatisplus.extension.plugins.inner.BlockAttackInnerIntercep
 import com.baomidou.mybatisplus.extension.plugins.inner.OptimisticLockerInnerInterceptor;
 import com.baomidou.mybatisplus.extension.plugins.inner.PaginationInnerInterceptor;
 import bs.common.interceptor.DataFilterInterceptor;
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  * mybatis-plus配置
- *
- * @author Mark sunlightcs@gmail.com
  * @since 1.0.0
  */
 @Configuration
@@ -36,6 +37,7 @@ public class MybatisPlusConfig {
         mybatisPlusInterceptor.addInnerInterceptor(new OptimisticLockerInnerInterceptor());
         // 防止全表更新与删除
         mybatisPlusInterceptor.addInnerInterceptor(new BlockAttackInnerInterceptor());
+        BeanFactory bean =  new ClassPathXmlApplicationContext();
 
         return mybatisPlusInterceptor;
     }

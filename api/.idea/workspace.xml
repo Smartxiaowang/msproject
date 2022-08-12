@@ -11,13 +11,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0054cf02-c322-430e-a82f-8570da3c4b6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ui/.idea/ui.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/Global/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/owner/controller/OwnerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/owner/dao/OwnerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/owner/entity/OwnerEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/owner/service/OwnerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/owner/service/impl/OwnerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ui/src/views/modules/owner/oinfo-add-or-update" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ui/src/views/modules/owner/oinfo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bs-wx/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bs-wx/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/Global/MyMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/Global/MyMvcConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/Global/RedisCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/Global/RedisCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/Global/ResultCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/Global/ResultCodeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/Global/ThreadPoolHelp.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/Global/ThreadPoolHelp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/annotation/DataFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/annotation/DataFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/annotation/LogOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/annotation/LogOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/aspect/DataFilterAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/aspect/DataFilterAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/aspect/LogOperationAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/aspect/LogOperationAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/config/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/config/MybatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/redis/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/redis/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/redis/RedisUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/redis/RedisUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/utils/BaseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/utils/BaseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/utils/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/utils/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/utils/ConvertUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/utils/ConvertUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/utils/PageData.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/utils/PageData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/utils/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/utils/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/utils/XssHttpServletRequestWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/utils/XssHttpServletRequestWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/log/dao/SysLogErrorDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/log/dao/SysLogErrorDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/log/entity/SysLogErrorEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/log/entity/SysLogErrorEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/log/entity/SysLogLoginEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/log/entity/SysLogLoginEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/log/entity/SysLogOperationEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/log/entity/SysLogOperationEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/security/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/security/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/security/password/PasswordUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/security/password/PasswordUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/enums/UserStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/enums/UserStatusEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/service/SysDeptService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/service/SysDeptService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bs-wx/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/test/java/bs/DynamicDataSourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-wx/src/test/java/bs/DynamicDataSourceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/src/mixins/view-module.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/mixins/view-module.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +57,14 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -47,6 +86,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ui" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15835777" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -54,7 +94,23 @@
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.AdminApplication">
+    <configuration name="DynamicDataSourceTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bs-wx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bs" />
+      <option name="MAIN_CLASS_NAME" value="bs.DynamicDataSourceTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="bs-wx" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="bs.AdminApplication" />
@@ -62,6 +118,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DynamicDataSourceTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES,SHOW_FIELDS,SHOW_LAMBDA,SHOW_ANONYMOUS,SHOW_INHERITED" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -76,6 +140,10 @@
       <workItem from="1658906335799" duration="436000" />
       <workItem from="1658906782252" duration="135000" />
       <workItem from="1658908317285" duration="10707000" />
+      <workItem from="1659081503333" duration="7261000" />
+      <workItem from="1659411963810" duration="12943000" />
+      <workItem from="1660202955543" duration="4244000" />
+      <workItem from="1660304774058" duration="4405000" />
     </task>
     <servers />
   </component>
@@ -106,69 +174,102 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1658977487635" />
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1660307975083">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="117" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1660307975083" />
+    <state x="150" y="46" key="DiffContextDialog" timestamp="1659425282207">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="150" y="46" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1659425282207" />
     <state x="549" y="110" key="FileChooserDialogImpl" timestamp="1658908600315">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="110" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1658908600315" />
-    <state width="1493" height="246" key="GridCell.Tab.0.bottom" timestamp="1658992566298">
+    <state width="1493" height="277" key="GridCell.Tab.0.bottom" timestamp="1660310712909">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="246" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1658992566298" />
-    <state width="1493" height="246" key="GridCell.Tab.0.center" timestamp="1658992566298">
+    <state width="1493" height="277" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1660310712909" />
+    <state width="1493" height="277" key="GridCell.Tab.0.center" timestamp="1660310712909">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="246" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1658992566298" />
-    <state width="1493" height="246" key="GridCell.Tab.0.left" timestamp="1658992566298">
+    <state width="1493" height="277" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1660310712909" />
+    <state width="1493" height="277" key="GridCell.Tab.0.left" timestamp="1660310712908">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="246" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1658992566298" />
-    <state width="1493" height="246" key="GridCell.Tab.0.right" timestamp="1658992566298">
+    <state width="1493" height="277" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1660310712908" />
+    <state width="1493" height="277" key="GridCell.Tab.0.right" timestamp="1660310712909">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="246" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1658992566298" />
-    <state width="1493" height="246" key="GridCell.Tab.1.bottom" timestamp="1658992566298">
+    <state width="1493" height="277" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1660310712909" />
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1660310712909">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="246" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1658992566298" />
-    <state width="1493" height="246" key="GridCell.Tab.1.center" timestamp="1658992566298">
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1660310712909" />
+    <state width="1493" height="277" key="GridCell.Tab.1.center" timestamp="1660310712909">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="246" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1658992566298" />
-    <state width="1493" height="246" key="GridCell.Tab.1.left" timestamp="1658992566298">
+    <state width="1493" height="277" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1660310712909" />
+    <state width="1493" height="277" key="GridCell.Tab.1.left" timestamp="1660310712909">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="246" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1658992566298" />
-    <state width="1493" height="246" key="GridCell.Tab.1.right" timestamp="1658992566298">
+    <state width="1493" height="277" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1660310712909" />
+    <state width="1493" height="277" key="GridCell.Tab.1.right" timestamp="1660310712909">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="246" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1658992566298" />
-    <state width="1493" height="261" key="GridCell.Tab.2.bottom" timestamp="1658906775409">
+    <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1660310712909" />
+    <state width="1493" height="193" key="GridCell.Tab.2.bottom" timestamp="1659434194849">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1658906775409" />
-    <state width="1493" height="261" key="GridCell.Tab.2.center" timestamp="1658906775409">
+    <state width="1493" height="193" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1659434194849" />
+    <state width="1493" height="193" key="GridCell.Tab.2.center" timestamp="1659434194849">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1658906775409" />
-    <state width="1493" height="261" key="GridCell.Tab.2.left" timestamp="1658906775409">
+    <state width="1493" height="193" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1659434194849" />
+    <state width="1493" height="193" key="GridCell.Tab.2.left" timestamp="1659434194849">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1658906775409" />
-    <state width="1493" height="261" key="GridCell.Tab.2.right" timestamp="1658906775409">
+    <state width="1493" height="193" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1659434194849" />
+    <state width="1493" height="193" key="GridCell.Tab.2.right" timestamp="1659434194849">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1658906775409" />
+    <state width="1493" height="193" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1659434194849" />
     <state x="408" y="115" key="NewModule_or_Project.wizard" timestamp="1658906908837">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="408" y="115" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1658906908837" />
-    <state x="577" y="113" key="RollbackChangesDialog" timestamp="1658992558935">
+    <state x="577" y="113" key="RollbackChangesDialog" timestamp="1659425290270">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="577" y="113" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1658992558935" />
+    <state x="577" y="113" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1659425290270" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1658906916620">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1658906916620" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1659085497017">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1659085497017" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/security/controller/LoginController.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/bs-wx/src/main/java/bs/common/Global/RedisCache.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/owner/controller/OwnerController.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

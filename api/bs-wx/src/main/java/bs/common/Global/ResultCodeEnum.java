@@ -11,7 +11,7 @@ import lombok.Getter;
  **/
 @Getter
 public enum ResultCodeEnum {
-    SUCCESS(true, 200, "成功"),
+    SUCCESS(true, 0, "成功"),
     UNKNOWN_ERROR(false, 201, "未知错误"),
     PARAM_ERROR(false, 202, "参数错误"),
     HTTP_CLIENT_ERROR(false, 203, "HttpClient错误"),

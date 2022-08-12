@@ -19,7 +19,6 @@ import java.util.List;
 /**
  * 转换工具类
  *
- * @author Mark sunlightcs@gmail.com
  */
 public class ConvertUtils {
     private static Logger logger = LoggerFactory.getLogger(ConvertUtils.class);

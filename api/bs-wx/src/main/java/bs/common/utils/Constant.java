@@ -11,7 +11,6 @@ package bs.common.utils;
 /**
  * 常量
  *
- * @author Mark sunlightcs@gmail.com
  */
 public interface Constant {
     /**

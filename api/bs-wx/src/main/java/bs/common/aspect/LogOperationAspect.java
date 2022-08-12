@@ -29,8 +29,6 @@ import java.lang.reflect.Method;
 
 /**
  * 操作日志，切面处理类
- *
- * @author Mark sunlightcs@gmail.com
  */
 @Aspect
 @Component
@@ -104,14 +102,5 @@ public class LogOperationAspect {
 
         //保存到DB
         sysLogOperationService.save(log);
-    }
-
-    @Before("logPointCut()")
-    private void Before() throws Throwable {
-        System.out.println("先调用这个");
-    }
-    @After("logPointCut()")
-    private void After(){
-        System.out.println("后调用这个");
     }
 }

@@ -11,6 +11,7 @@ package bs.modules.security.controller;
 import bs.common.Global.CMSException;
 import bs.common.Global.R;
 import bs.common.Global.RedisCache;
+import bs.common.Global.ThreadPoolHelp;
 import bs.common.utils.ErrorCode;
 import bs.common.utils.IpUtils;
 import bs.modules.job.utils.ValidatorUtils;
@@ -41,6 +42,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Date;
+import java.util.Set;
+import java.util.concurrent.ExecutorService;
 
 /*
  * @Description: 登录
@@ -57,6 +60,10 @@ public class LoginController {
     private CaptchaService captchaService;
     @Autowired
     private SysLogLoginService sysLogLoginService;
+    @Autowired
+    private ThreadPoolHelp threadPoolHelp;
+    @Autowired
+    private RedisCache redisCache;
 
     @GetMapping("captcha")
     @ApiOperation(value = "验证码", produces = "application/octet-stream")
@@ -82,6 +89,9 @@ public class LoginController {
     @ApiOperation(value = "登录")
     public R login(HttpServletRequest request, @RequestBody LoginDTO login) {
         //效验数据
+        ExecutorService executorService = threadPoolHelp.executorService();
+        executorService.shutdownNow();
+        Set<String> wang = redisCache.keys("wang");
         ValidatorUtils.validateEntity(login);
 
         //验证码是否正确

@@ -16,7 +16,6 @@ import lombok.EqualsAndHashCode;
 /**
  * 操作日志
  *
- * @author Mark sunlightcs@gmail.com
  * @since 1.0.0
  */
 @Data

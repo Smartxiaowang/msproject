@@ -28,12 +28,22 @@ public class DynamicDataSourceTest {
 
     @Test
     public void test(){
-        Long id = 1067246875800000001L;
+        /*Long id = 1067246875800000001L;
 
         dynamicDataSourceTestService.updateUser(id);
-        dynamicDataSourceTestService.updateUserBySlave1(id);
+        dynamicDataSourceTestService.updateUserBySlave1(id);*/
         //dynamicDataSourceTestService.updateUserBySlave2(id);
+
     }
 
+    public Object getBeab() {
+        try {
+            return 1;
+        }catch (Exception ignored) {
+            return 2;
+        }finally {
+            return 3;
+        }
+    }
 
 }

@@ -1,5 +1,7 @@
 package bs.common.Global;
 
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
@@ -16,15 +18,22 @@ import java.util.Set;
  * @Date 17:19 2022/7/14
  * @Version 1.0
  **/
+@Component
+@Scope("singleton")
 public final class RedisCache {
-    private JedisPool jedisPool;
+    private static JedisPool jedisPool;
     static {
-
+        JedisPoolConfig config = new JedisPoolConfig();
+        config.setMaxIdle(8);
+        config.setMaxTotal(18);
+        jedisPool = new JedisPool(
+                config, "47.93.50.249",
+                6379, 30000,
+                "aabbcc0101");
     }
     /*
     除了该工具类提供的方法外，还可以在外面调用getJedis()方法，获取到jedis实例后，调用它原生的api来操作
      */
-
     /**
      * 获取jedis对象，并选择redis库。jedis默认是0号库，可传入1-16之间的数选择库存放数据
      * 原则上使用一个redis库存放数据，通过特定的key的命令规则来区分不同的数据就行了。
@@ -38,7 +47,11 @@ public final class RedisCache {
         JedisPoolConfig config = new JedisPoolConfig();
         config.setMaxIdle(8);
         config.setMaxTotal(18);
-        JedisPool pool = new JedisPool(config, "47.93.50.249", 6379, 30000, "aabbcc0101");
+
+        JedisPool pool = new JedisPool(
+                config, "47.93.50.249",
+                6379, 30000,
+                "aabbcc0101");
         Jedis jedis = pool.getResource();
         if (index != null && index.length > 0) {
             if (index[0] > 0 && index[0] <= 16){
@@ -56,8 +69,8 @@ public final class RedisCache {
      * @param pattern
      * @return
      */
-    public static Set<String> keys(String pattern) {
-        Jedis jedis = null;
+    public Set<String> keys(String pattern) {
+        Jedis jedis = jedisPool.getResource();
         Set<String> keys = null;
         try {
             jedis = getJedis();
