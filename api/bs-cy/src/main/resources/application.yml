@@ -7,7 +7,7 @@ server:
       min-spare: 30
   port: 8080
   servlet:
-    context-path: /wang_admin
+    context-path: /fx_admin
     session:
       cookie:
         http-only: true

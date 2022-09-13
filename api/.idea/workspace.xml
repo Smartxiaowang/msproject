@@ -11,7 +11,237 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0054cf02-c322-430e-a82f-8570da3c4b6e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/bs-wx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/bs-cy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/AdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/AdminApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/Global/CMSException.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/Global/CMSException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/Global/DataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/Global/DataSourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/Global/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/Global/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/Global/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/Global/MyInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/Global/MyInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/Global/MyMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/Global/MyMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/Global/MyRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/Global/MyRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/Global/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/Global/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/Global/RedisCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/Global/RedisCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/Global/ResultCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/Global/ResultCodeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/Global/SaltUntil.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/Global/SaltUntil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/Global/ThreadPoolHelp.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/Global/ThreadPoolHelp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/annotation/DataFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/annotation/DataFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/annotation/LogOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/annotation/LogOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/aspect/DataFilterAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/aspect/DataFilterAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/aspect/LogOperationAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/aspect/LogOperationAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/config/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/config/MybatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/dao/BaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/dao/BaseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/handler/FieldMetaObjectHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/handler/FieldMetaObjectHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/interceptor/DataFilterInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/interceptor/DataFilterInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/interceptor/DataScope.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/interceptor/DataScope.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/redis/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/redis/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/redis/RedisKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/redis/RedisKeys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/redis/RedisUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/redis/RedisUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/utils/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/utils/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/utils/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/utils/BaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/utils/BaseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/utils/BaseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/utils/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/utils/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/utils/ConvertUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/utils/ConvertUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/utils/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/utils/ErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/utils/ExcelUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/utils/ExcelUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/utils/ExceptionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/utils/ExceptionUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/utils/HttpContextUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/utils/HttpContextUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/utils/IpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/utils/IpUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/utils/JsonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/utils/JsonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/utils/PageData.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/utils/PageData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/utils/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/utils/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/utils/SpringContextUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/utils/SpringContextUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/utils/SqlFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/utils/SqlFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/utils/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/utils/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/utils/TreeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/utils/TreeUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/utils/XssFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/utils/XssFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/utils/XssHttpServletRequestWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/utils/XssHttpServletRequestWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/utils/XssUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/common/utils/XssUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/validator/group/AliyunGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/validator/group/QcloudGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/common/validator/group/QiniuGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/job/config/ScheduleConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/job/config/ScheduleConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/job/controller/ScheduleJobController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/job/controller/ScheduleJobController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/job/controller/ScheduleJobLogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/job/controller/ScheduleJobLogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/job/dao/ScheduleJobDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/job/dao/ScheduleJobDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/job/dao/ScheduleJobLogDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/job/dao/ScheduleJobLogDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/job/dto/ScheduleJobDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/job/dto/ScheduleJobDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/job/dto/ScheduleJobLogDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/job/dto/ScheduleJobLogDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/job/entity/ScheduleJobEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/job/entity/ScheduleJobEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/job/entity/ScheduleJobLogEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/job/entity/ScheduleJobLogEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/job/init/JobCommandLineRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/job/init/JobCommandLineRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/job/service/ScheduleJobLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/job/service/ScheduleJobLogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/job/service/ScheduleJobService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/job/service/ScheduleJobService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/job/service/impl/ScheduleJobLogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/job/service/impl/ScheduleJobLogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/job/service/impl/ScheduleJobServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/job/service/impl/ScheduleJobServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/job/task/ITask.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/job/task/ITask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/job/task/TestTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/job/task/TestTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/job/utils/DateUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/job/utils/DateUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/job/utils/ScheduleJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/job/utils/ScheduleJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/job/utils/ScheduleUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/job/utils/ScheduleUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/job/utils/ValidatorUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/job/utils/ValidatorUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/job/utils/group/AddGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/job/utils/group/AddGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/job/utils/group/DefaultGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/job/utils/group/DefaultGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/job/utils/group/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/job/utils/group/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/job/utils/group/UpdateGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/job/utils/group/UpdateGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/log/controller/SysLogErrorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/log/controller/SysLogErrorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/log/controller/SysLogLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/log/controller/SysLogLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/log/controller/SysLogOperationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/log/controller/SysLogOperationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/log/dao/SysLogErrorDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/log/dao/SysLogErrorDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/log/dao/SysLogLoginDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/log/dao/SysLogLoginDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/log/dao/SysLogOperationDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/log/dao/SysLogOperationDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/log/dto/SysLogErrorDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/log/dto/SysLogErrorDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/log/dto/SysLogLoginDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/log/dto/SysLogLoginDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/log/dto/SysLogOperationDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/log/dto/SysLogOperationDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/log/entity/SysLogErrorEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/log/entity/SysLogErrorEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/log/entity/SysLogLoginEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/log/entity/SysLogLoginEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/log/entity/SysLogOperationEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/log/entity/SysLogOperationEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/log/enums/LoginOperationEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/log/enums/LoginOperationEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/log/enums/LoginStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/log/enums/LoginStatusEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/log/enums/OperationStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/log/enums/OperationStatusEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/log/excel/SysLogErrorExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/log/excel/SysLogErrorExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/log/excel/SysLogLoginExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/log/excel/SysLogLoginExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/log/excel/SysLogOperationExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/log/excel/SysLogOperationExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/log/service/SysLogErrorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/log/service/SysLogErrorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/log/service/SysLogLoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/log/service/SysLogLoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/log/service/SysLogOperationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/log/service/SysLogOperationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/log/service/impl/SysLogErrorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/log/service/impl/SysLogErrorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/log/service/impl/SysLogLoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/log/service/impl/SysLogLoginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/log/service/impl/SysLogOperationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/log/service/impl/SysLogOperationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/owner/controller/OwnerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/owner/controller/OwnerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/owner/dao/OwnerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/owner/dao/OwnerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/owner/entity/OwnerEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/owner/entity/OwnerEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/owner/service/OwnerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/owner/service/OwnerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/owner/service/impl/OwnerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/owner/service/impl/OwnerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/security/config/FilterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/security/config/FilterConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/security/config/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/security/config/ShiroConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/security/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/security/config/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/security/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/security/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/security/dao/SysUserTokenDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/security/dao/SysUserTokenDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/security/dto/LoginDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/security/dto/LoginDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/security/entity/SysUserTokenEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/security/entity/SysUserTokenEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/security/oauth2/Oauth2Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/security/oauth2/Oauth2Filter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/security/oauth2/Oauth2Realm.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/security/oauth2/Oauth2Realm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/security/oauth2/Oauth2Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/security/oauth2/Oauth2Token.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/security/oauth2/TokenGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/security/oauth2/TokenGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/security/password/BCrypt.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/security/password/BCrypt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/security/password/BCryptPasswordEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/security/password/BCryptPasswordEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/security/password/PasswordEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/security/password/PasswordEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/security/password/PasswordUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/security/password/PasswordUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/security/service/CaptchaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/security/service/CaptchaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/security/service/ShiroService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/security/service/ShiroService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/security/service/SysUserTokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/security/service/SysUserTokenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/security/service/impl/CaptchaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/security/service/impl/CaptchaServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/security/service/impl/ShiroServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/security/service/impl/ShiroServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/security/service/impl/SysUserTokenServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/security/service/impl/SysUserTokenServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/security/user/SecurityUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/security/user/SecurityUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/security/user/UserDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/security/user/UserDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/controller/SysDeptController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/controller/SysDeptController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/controller/SysDictDataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/controller/SysDictDataController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/controller/SysDictTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/controller/SysDictTypeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/controller/SysMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/controller/SysMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/controller/SysParamsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/controller/SysParamsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/controller/SysRoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/controller/SysRoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/controller/SysUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/dao/SysDeptDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/dao/SysDeptDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/dao/SysDictDataDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/dao/SysDictDataDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/dao/SysDictTypeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/dao/SysDictTypeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/dao/SysMenuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/dao/SysMenuDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/dao/SysParamsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/dao/SysParamsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/dao/SysRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/dao/SysRoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/dao/SysRoleDataScopeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/dao/SysRoleDataScopeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/dao/SysRoleMenuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/dao/SysRoleMenuDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/dao/SysRoleUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/dao/SysRoleUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/dao/SysUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/dao/SysUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/dto/PasswordDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/dto/PasswordDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/dto/SysDeptDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/dto/SysDeptDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/dto/SysDictDataDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/dto/SysDictDataDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/dto/SysDictTypeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/dto/SysDictTypeDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/dto/SysMenuDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/dto/SysMenuDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/dto/SysParamsDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/dto/SysParamsDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/dto/SysRoleDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/dto/SysRoleDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/dto/SysUserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/dto/SysUserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/dto/SystemDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/dto/SystemDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/entity/DictData.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/entity/DictData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/entity/DictType.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/entity/DictType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/entity/SysDeptEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/entity/SysDeptEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/entity/SysDictDataEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/entity/SysDictDataEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/entity/SysDictTypeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/entity/SysDictTypeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/entity/SysMenuEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/entity/SysMenuEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/entity/SysParamsEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/entity/SysParamsEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/entity/SysRoleDataScopeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/entity/SysRoleDataScopeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/entity/SysRoleEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/entity/SysRoleEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/entity/SysRoleMenuEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/entity/SysRoleMenuEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/entity/SysRoleUserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/entity/SysRoleUserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/entity/SysUserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/entity/SysUserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/enums/MenuTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/enums/MenuTypeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/enums/SuperAdminEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/enums/SuperAdminEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/enums/UserStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/enums/UserStatusEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/excel/SysParamsExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/excel/SysParamsExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/excel/SysUserExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/excel/SysUserExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/redis/SysParamsRedis.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/redis/SysParamsRedis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/service/SysDeptService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/service/SysDeptService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/service/SysDictDataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/service/SysDictDataService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/service/SysDictTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/service/SysDictTypeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/service/SysMenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/service/SysMenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/service/SysParamsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/service/SysParamsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/service/SysRoleDataScopeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/service/SysRoleDataScopeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/service/SysRoleMenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/service/SysRoleMenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/service/SysRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/service/SysRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/service/SysRoleUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/service/SysRoleUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/service/SysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/service/SysUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/service/impl/SysDeptServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/service/impl/SysDeptServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/service/impl/SysDictDataServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/service/impl/SysDictDataServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/service/impl/SysDictTypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/service/impl/SysDictTypeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/service/impl/SysMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/service/impl/SysMenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/service/impl/SysParamsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/service/impl/SysParamsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/service/impl/SysRoleDataScopeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/service/impl/SysRoleDataScopeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/service/impl/SysRoleMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/service/impl/SysRoleMenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/service/impl/SysRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/service/impl/SysRoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/service/impl/SysRoleUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/service/impl/SysRoleUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/sys/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/sys/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/resources/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/resources/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/resources/application-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/resources/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/resources/mapper/job/ScheduleJobDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/resources/mapper/job/ScheduleJobDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/resources/mapper/job/ScheduleJobLogDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/resources/mapper/job/ScheduleJobLogDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/resources/mapper/log/SysLogErrorDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/resources/mapper/log/SysLogErrorDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/resources/mapper/log/SysLogLoginDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/resources/mapper/log/SysLogLoginDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/resources/mapper/log/SysLogOperationDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/resources/mapper/log/SysLogOperationDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/resources/mapper/oss/SysOssDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/resources/mapper/oss/SysOssDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/resources/mapper/sys/SysDeptDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/resources/mapper/sys/SysDeptDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/resources/mapper/sys/SysDictDataDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/resources/mapper/sys/SysDictDataDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/resources/mapper/sys/SysDictTypeDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/resources/mapper/sys/SysDictTypeDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/resources/mapper/sys/SysMenuDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/resources/mapper/sys/SysMenuDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/resources/mapper/sys/SysParamsDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/resources/mapper/sys/SysParamsDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/resources/mapper/sys/SysRoleDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/resources/mapper/sys/SysRoleDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/resources/mapper/sys/SysRoleDataScopeDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/resources/mapper/sys/SysRoleDataScopeDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/resources/mapper/sys/SysRoleMenuDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/resources/mapper/sys/SysRoleMenuDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/resources/mapper/sys/SysRoleUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/resources/mapper/sys/SysRoleUserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/resources/mapper/sys/SysUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/resources/mapper/sys/SysUserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/resources/mapper/sys/SysUserTokenDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/resources/mapper/sys/SysUserTokenDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/resources/public/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/resources/public/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/resources/public/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/resources/public/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/resources/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/resources/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/main/resources/public/wechat.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/main/resources/public/wechat.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/test/java/bs/DynamicDataSourceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/test/java/bs/DynamicDataSourceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/test/java/bs/RedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/test/java/bs/RedisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bs-wx/src/test/java/bs/service/DynamicDataSourceTestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bs-cy/src/test/java/bs/service/DynamicDataSourceTestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/public/vx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ui/src/i18n/zh-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ui/src/i18n/zh-CN.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +289,7 @@
   </component>
   <component name="RunManager" selected="Spring Boot.AdminApplication">
     <configuration name="DynamicDataSourceTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bs-wx" />
+      <module name="bs-cy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="bs.*" />
@@ -75,7 +305,7 @@
       </method>
     </configuration>
     <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="bs-wx" />
+      <module name="bs-cy" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="bs.AdminApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,6 +345,7 @@
       <workItem from="1662382908410" duration="278000" />
       <workItem from="1662383217344" duration="423000" />
       <workItem from="1662430889739" duration="592000" />
+      <workItem from="1663047101835" duration="2122000" />
     </task>
     <servers />
   </component>
@@ -226,17 +457,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/security/controller/LoginController.java</url>
+          <url>file://$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/security/controller/LoginController.java</url>
           <line>91</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/bs-wx/src/main/java/bs/common/Global/RedisCache.java</url>
+          <url>file://$PROJECT_DIR$/bs-cy/src/main/java/bs/common/Global/RedisCache.java</url>
           <line>72</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/bs-wx/src/main/java/bs/modules/owner/controller/OwnerController.java</url>
+          <url>file://$PROJECT_DIR$/bs-cy/src/main/java/bs/modules/owner/controller/OwnerController.java</url>
           <line>38</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>

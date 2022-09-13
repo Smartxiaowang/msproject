@@ -22,6 +22,7 @@ public class ThreadPoolHelp {
     private ThreadPoolHelp() {
     }
 
+    //获取线程实例
     public ExecutorService getInstance(String pollName) {
         if (pollName.equals("fixed")) {
             if (fixedService != null) {

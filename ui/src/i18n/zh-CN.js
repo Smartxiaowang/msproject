@@ -3,7 +3,7 @@ const t = {}
 t.loading = '加载中...'
 
 t.brand = {}
-t.brand.lg = '没想好什么标题（毕设）'
+t.brand.lg = '健康校园返校系统'
 t.brand.mini = ''
 
 t.add = '新增'
