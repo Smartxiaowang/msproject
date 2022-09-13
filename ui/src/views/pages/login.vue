@@ -43,7 +43,7 @@
         </div>
         <div class="login-footer">
           <p>
-            <a href="https://github.com/Smartxiaowang">{{ $t('login.demo') }}</a>
+            <a href="https://www.gench.edu.cn/">{{ $t('login.demo') }}</a>
           </p>
         </div>
       </main>
@@ -99,7 +99,8 @@ export default {
           return false
         }
         this.$http.post('/login', this.dataForm).then(({ data: res }) => {
-          if (res.code !== 200) {
+          console.log(res.code)
+          if (res.code !== 0) {
             this.getCaptcha()
             return this.$message.error(res.message)
           }

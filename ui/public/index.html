@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="shortcut icon" href="<%= BASE_URL %>icon.png">
+  <link rel="shortcut icon" href="<%= BASE_URL %>xh.jpg">
   <!-- 站点配置 -->
   <script>
     window.SITE_CONFIG = {};
@@ -30,25 +30,25 @@
   <!-- 开发环境 -->
   <% if (process.env.VUE_APP_NODE_ENV === 'dev') { %>
     <script>
-    window.SITE_CONFIG['apiURL'] = 'http://localhost:8080/wang_admin';
+    window.SITE_CONFIG['apiURL'] = 'http://localhost:8080/fx_admin';
     </script>
   <% } %>
   <!-- 集成测试环境 -->
   <% if (process.env.VUE_APP_NODE_ENV === 'prod:sit') { %>
     <script>
-      window.SITE_CONFIG['apiURL'] = 'http://localhost:8080/wang_admin';
+      window.SITE_CONFIG['apiURL'] = 'http://localhost:8080/fx_admin';
     </script>
   <% } %>
   <!-- 验收测试环境 -->
   <% if (process.env.VUE_APP_NODE_ENV === 'prod:uat') { %>
     <script>
-      window.SITE_CONFIG['apiURL'] = 'http://localhost:8080/wang_admin';
+      window.SITE_CONFIG['apiURL'] = 'http://localhost:8080/fx_admin';
     </script>
   <% } %>
   <!-- 生产环境 -->
   <% if (process.env.VUE_APP_NODE_ENV === 'prod') { %>
     <script>
-      window.SITE_CONFIG['apiURL'] = 'http://localhost:8080/wang_admin';
+      window.SITE_CONFIG['apiURL'] = 'http://localhost:8080/fx_admin';
     </script>
   <% } %>
 </head>
