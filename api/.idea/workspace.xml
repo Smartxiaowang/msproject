@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0054cf02-c322-430e-a82f-8570da3c4b6e" name="Default Changelist" comment="">
+    <list default="true" id="0054cf02-c322-430e-a82f-8570da3c4b6e" name="Default Changelist" comment="init project">
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
@@ -345,8 +345,16 @@
       <workItem from="1662382908410" duration="278000" />
       <workItem from="1662383217344" duration="423000" />
       <workItem from="1662430889739" duration="592000" />
-      <workItem from="1663047101835" duration="2122000" />
+      <workItem from="1663047101835" duration="2455000" />
     </task>
+    <task id="LOCAL-00001" summary="init project">
+      <created>1663049493049</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663049493049</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,6 +374,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="true" />
+    <MESSAGE value="init project" />
+    <option name="LAST_COMMIT_MESSAGE" value="init project" />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" timestamp="1658976932002">

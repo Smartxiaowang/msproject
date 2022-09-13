@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource.dynamic.datasource.master",
+      "type": "javax.sql.DataSource",
+      "sourceType": "bs.common.Global.DataSourceConfig",
+      "sourceMethod": "masterDataSource()"
+    },
+    {
+      "name": "spring.datasource.dynamic.datasource.slave",
+      "type": "javax.sql.DataSource",
+      "sourceType": "bs.common.Global.DataSourceConfig",
+      "sourceMethod": "slaveDataSource()"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
