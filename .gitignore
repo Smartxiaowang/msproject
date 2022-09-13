@@ -1,5 +1,5 @@
 .gitignore   //这句很重要，这句表示忽略.gitignore自身，这个文件不会被提交上去
 .idea/    //忽略.idea文件夹
 *.iml     //忽略后缀名为.iml的文件
-api/bs-wx/target
+api/bs-cy/target
 ui/node_modules
