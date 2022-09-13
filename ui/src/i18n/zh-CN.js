@@ -71,7 +71,7 @@ t.login.title = '登录'
 t.login.username = '用户名'
 t.login.password = '密码'
 t.login.captcha = '验证码'
-t.login.demo = '关于我'
+t.login.demo = '上海建桥学院'
 t.login.copyright = ''
 
 t.schedule = {}
@@ -257,5 +257,6 @@ t.user.validate.confirmPassword = '确认密码与密码输入不一致'
 t.user.select = '选择用户'
 t.user.selecterror = '请选择一条记录'
 
-
+t.srr = {}
+t.srr.date = '请选择时间'
 export default t
