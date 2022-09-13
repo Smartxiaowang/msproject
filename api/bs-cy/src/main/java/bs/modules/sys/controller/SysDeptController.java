@@ -27,18 +27,16 @@ import java.util.List;
 
 /**
  * 部门管理
- * 
- * @author Mark sunlightcs@gmail.com
+ *
  */
 @RestController
 @RequestMapping("/sys/dept")
-@Api(tags="部门管理")
 public class SysDeptController {
+
 	@Autowired
 	private SysDeptService sysDeptService;
 
 	@GetMapping("list")
-	@ApiOperation("列表")
 	@RequiresPermissions("sys:dept:list")
 	public Result<List<SysDeptDTO>> list(){
 		List<SysDeptDTO> list = sysDeptService.list(new HashMap<>(1));
@@ -47,7 +45,6 @@ public class SysDeptController {
 	}
 
 	@GetMapping("{id}")
-	@ApiOperation("信息")
 	@RequiresPermissions("sys:dept:info")
 	public Result<SysDeptDTO> get(@PathVariable("id") Long id){
 		SysDeptDTO data = sysDeptService.get(id);
@@ -56,7 +53,6 @@ public class SysDeptController {
 	}
 
 	@PostMapping
-	@ApiOperation("保存")
 	@LogOperation("保存")
 	@RequiresPermissions("sys:dept:save")
 	public Result save(@RequestBody SysDeptDTO dto){
@@ -69,7 +65,6 @@ public class SysDeptController {
 	}
 
 	@PutMapping
-	@ApiOperation("修改")
 	@LogOperation("修改")
 	@RequiresPermissions("sys:dept:update")
 	public Result update(@RequestBody SysDeptDTO dto){
@@ -82,7 +77,6 @@ public class SysDeptController {
 	}
 
 	@DeleteMapping("{id}")
-	@ApiOperation("删除")
 	@LogOperation("删除")
 	@RequiresPermissions("sys:dept:delete")
 	public Result delete(@PathVariable("id") Long id){

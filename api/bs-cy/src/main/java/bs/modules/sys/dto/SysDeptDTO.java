@@ -26,8 +26,6 @@ import java.util.Date;
 /**
  * 部门管理
  *
- * @author Mark sunlightcs@gmail.com
- * @since 1.0.0
  */
 @ApiModel(value = "部门管理")
 public class SysDeptDTO extends TreeNode implements Serializable {
